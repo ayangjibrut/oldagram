@@ -1,5 +1,12 @@
 html, body {
     margin: 0;
     padding: 0;
+    width: 375px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 127px;
+    border-bottom: 1px solid pink;
 }
 
