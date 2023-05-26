@@ -1,10 +1,59 @@
 html, body {
+    padding: 0;
+    width: 375px;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 15px;
+}
+
+.user-avatar {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.logo {
+    width: 100px;
+}
+
+.post .header {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: start;
+}
+
+.post .avatar {
+    width: 32px;
+    border-radius: 50%;
+}
+
+.post .img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 2px solid #C6C6C6;
+}
+
+.control-bar {
+    width: 23px;
+}
+
+
+/* html, body {
     margin: 0;
     padding: 0;
     width: 375px;
     margin: 0 auto;
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: bisque;
+    background-color: lightgrey;
 }
 
 header {
@@ -42,6 +91,7 @@ h1 {
 p {
     font-size: 12px;
     margin-top: -5px;
+    margin-left: 15px;
 }
 
 .gogh {
@@ -55,5 +105,9 @@ p {
 }
 
 .post {
-    width: 375px;
+    width: 100%;
 }
+
+span {
+    font-weight: 700;
+} */
