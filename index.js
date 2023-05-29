@@ -1,4 +1,4 @@
-const posts = [
+let posts = [
     {
         name: "Vincent van Gogh",
         username: "vincey1853",
