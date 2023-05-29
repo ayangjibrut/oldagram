@@ -62,4 +62,4 @@ for (let i = 0; i < posts.length; i++) {
     `
 }
 
-mainEl.innerHTML = html;
+mainEl.innerHTML = html
