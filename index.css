@@ -1,113 +1,79 @@
 html, body {
+    margin: 0 auto;
     padding: 0;
     width: 375px;
-    margin: 0 auto;
     font-family: 'Source Sans Pro', sans-serif;
-}
-
-header {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5px 15px;
-}
-
-.user-avatar {
-    width: 10%;
-    border-radius: 50%;
-}
-
-.logo {
-    width: 100px;
-}
-
-.post .header {
-    padding: 10px 0px;
-    display: flex;
-    justify-content: start;
-}
-
-.post .avatar {
-    width: 32px;
-    border-radius: 50%;
-}
-
-.post .img {
-    width: 100%;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     background-color: white;
-    border-bottom: 2px solid #C6C6C6;
-}
-
-.control-bar {
-    width: 23px;
-}
-
-
-/* html, body {
-    margin: 0;
-    padding: 0;
-    width: 375px;
-    margin: 0 auto;
-    font-family: 'Source Sans Pro', sans-serif;
-    background-color: lightgrey;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    border-bottom: 2px solid #C6C6C6;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #C6C6C6;
 }
 
 .logo {
     width: 127px;
-    margin-left: 15px;
-    margin-bottom: 5px;
+    padding-left: 15px;
 }
 
-.avatar {
-    margin-top: 16px;
+.user-avatar {
+    margin-top: 13px;
     margin-right: 15px;
-    width: 34px;
-    height: 34px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
 }
 
-section {
-    background-color: white;
+.header {
     display: flex;
-    flex-wrap: wrap;
-}
-
-h1 {
+    justify-content: start;
+    padding: 10px 0;
     font-size: 13px;
-    margin-top: 11px;
+    font-weight: 700;
 }
 
-p {
-    font-size: 12px;
-    margin-top: -5px;
-    margin-left: 15px;
+.avatar {
+    width: 32px;
+    margin-left: 10px;
+    border-radius: 50%;
 }
 
-.gogh {
-    margin-top: 10px;
-    margin-left: 15px;
-}
-
-.icon {
-    width: 24px;
-    padding: 10px;
-}
-
-.post {
+.content-img {
     width: 100%;
 }
 
-span {
+.name, .location {
+    margin-left: 10px;
+}
+
+.location {
+    font-weight: 300;
+}
+
+.icon {
+    width: 25px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.likes {
+    font-size: 13px;
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.username {
     font-weight: 700;
-} */
+}
+
+p {
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.spacer {
+    border-bottom: 20px solid rgb(241, 241, 241);
+}
